@@ -17,7 +17,7 @@ default: &default
   cache_manifest: false
 
   # Extract and emit a css file
-  extract_css: false
+  extract_css: true
 
   static_assets_extensions:
     - .jpg
@@ -59,8 +59,8 @@ development:
   dev_server:
     https: false
     host: localhost
-    port: 3035
-    public: localhost:3035
+    port: 8082
+    public: b79f00c34adf4298bcbf97785cb3a05c.vfs.cloud9.us-east-2.amazonaws.com:8082
     hmr: false
     # Inline should be set to true if using HMR
     inline: true
