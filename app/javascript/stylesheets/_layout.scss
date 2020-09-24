@@ -5,12 +5,19 @@ body {
   height:100vh;
 }
 
-.header {
-  padding:2rem 1.5rem;
+.navbar-main {
+  
 }
+// .header {
+//   padding:2rem 1.5rem;
+// }
 
 .section {
   display:flex;
   flex:1 0 auto;
-} 
+  margin-top: 50px;
+}
 
+.form-help {
+  margin-top: 20px;
+}
